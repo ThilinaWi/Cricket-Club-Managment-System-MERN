@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+  }
+  /* Width, height, and background color */
+  ::-webkit-scrollbar {
+    width: 8px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Track (the area behind the thumb) */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Thumb (the draggable handle) */
+  ::-webkit-scrollbar-thumb {
+    background: #4a8db7;
+  }
+  
+  /* On hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4a8db7;
+  }
+  
+  .rate-full-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .item-topic {
+    text-align: center;
+    font-size: 45px;
+  }
+  .item-us {
+    color: #4a8db7;
+  }
+  .item-full-box-form {
+    border: 2px solid #4a8db7;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 500px;
+  }
+  .item-full-box-input {
+    width: 97%;
+    border: 2px solid #4a8db7;
+    font-size: 17px;
+    margin: 8px 0;
+    border-radius: 3px;
+    padding: 2px 8px;
+  }
+  .catinpt {
+    width: 101%;
+    border: 2px solid #4a8db7;
+    font-size: 17px;
+    margin: 8px 0;
+    border-radius: 3px;
+    padding: 2px 8px;
+  }
+  .item-full-box-label {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .item-add-btn {
+    margin: 0 auto;
+    background-color: #4a8db7;
+    border: 2px solid #4a8db7;
+    color: white;
+    padding: 4px 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 25px;
+    display: flex;
+  }
+  
+  /*item details page*/
+  .itmdetails {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  .itm_nav_bar_full {
+    width: 100%;
+    text-align: end;
+    padding: 10px 0px 10px 0;
+    background-color: #4a8db7;
+  }
+  .itm_nav_bar {
+    width: 99%;
+  }
+  .itm_nav_bar_btn {
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    background-color: #4a8db7;
+  }
+  
+  .itm_nav_bar_btn:hover {
+    color: black;
+  }
+  
+  .item-add-btn-admin {
+    background-color: #4a8db7;
+    border: 2px solid #4a8db7;
+    color: white;
+    padding: 4px 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 25px;
+  }
+  .item_details_body {
+    padding: 25px 8%;
+  }
+  
+  .search_box {
+    justify-content: center;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+  }
+  .serch_ipt {
+    width: 300px;
+    border: 2px solid #4a8db7;
+    font-size: 17px;
+    border-radius: 3px;
+    padding: 2px 8px;
+  }
+  .serchbtn {
+    background-color: #4a8db7;
+    border: 2px solid #4a8db7;
+    color: white;
+    padding: 4px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 17px;
+  }
+  .card_set_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    border: 0;
+    gap: 25px;
+  }
+  .card_item {
+    border: 2px solid #4a8db7;
+    width: 300px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .itm_img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .itmname {
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 12px;
+    font-weight: bold;
+  }
+  
+  .details_card_itm {
+    padding: 0 20px;
+  }
+  .card_details {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+  }
+  .price_item {
+    text-align: center;
+    margin: 12px 0;
+    font-weight: bold;
+    font-size: 25px;
+    color: #4a8db7;
+  }
+  .btn_box {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 25px;
+  }
+  .update_btn {
+    background-color: #4a8db7;
+    border: 2px solid #4a8db7;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    margin-right: 25px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 19px;
+  }
+  .dlt_btn {
+    background-color: #ec1212;
+    border: 2px solid #ec1212;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 19px;
+  }
+  .update_form {
+    padding: 10px 10px 10px 10px;
+  }
+  .item-full-box-input_update {
+    width: 92%;
+    border: 2px solid #4a8db7;
+    font-size: 17px;
+    margin: 8px 0;
+    border-radius: 3px;
+    padding: 2px 8px;
+  }
+  .userhomebk {
+    /* background-image: url(./User/DashBoard/img/bk.webp); */
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center center;
+    justify-content: center;
+    padding-bottom: 25px;
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .topic_home {
+    color: white;
+    text-align: center;
+    right: 200px;
+    top: 220px;
+    font-size: 200px;
+    font-weight: bold;
+    position: absolute;
+  }
+  .topic_home2 {
+    color: #1a3f77;
+    text-align: center;
+    right: 300px;
+    top: 370px;
+    font-size: 180px;
+    font-weight: bold;
+    position: absolute;
+  }
+  .topic_para {
+    color: white;
+    text-align: center;
+    right: 200px;
+    top: 120px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+  }
+  
+  .itm_nav_bar_btn_admin {
+    position: absolute;
+    justify-content: left;
+    display: flex;
+    text-align: center;
+    left: 10px;
+    background-color: #1a3f77;
+    border: 2px solid #1a3f77;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .admin_topic_item{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .admin_sub_topic_item{
+    color: #4a8db7;
+  }
+  .btn_con_item{
+    display: flex;
+    justify-content: space-between;
+  }

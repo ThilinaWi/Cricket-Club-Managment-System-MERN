@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  
+
+;
+  /* App.css */
+
+
+  .con{
+    background-color: aliceblue;
+    display: block;
+  }
+}
+.emp_container {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+.emp_container_find {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 25px;
+}
+
+.txt_font {
+  background-color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  padding: 25px 0;
+}
+.topic_emp {
+  margin-top: 100px;
+  text-align: center;
+}
+.sub_topic_emp {
+  
+  color: #4a8db7;
+  
+}
+
+.go_acc_sub {
+  
+  color: #4a8db7;
+  cursor: pointer;
+  font-weight: bold;
+}
+.go_acc_sub:hover {
+  color: #2d5b78;
+}
+.emp_form {
+  
+  width: 500px;
+  border: 2px solid #7b5eff;
+  margin: 25px;
+  border-radius: 4px;
+  padding: 25px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.emp_input {
+  width: 100%;
+  border: 2px solid #4a8db7;
+  font-size: 17px;
+  border-radius: 3px;
+  padding: 3px 3px;
+  margin: 3px 0 8px 0;
+}
+.emp_input_search {
+  width: 100%;
+  border: 2px solid #4a8db7;
+  font-size: 17px;
+  border-radius: 3px;
+  padding: 5px 3px;
+}
+.emp_search{
+  background-color: #4a8db7;
+  border: 2px solid #4a8db7;
+  color: white;
+  padding: 3px 20px;
+  margin-left: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.emp_pdf{
+  background-color: #4a8db7;
+  border: 2px solid #4a8db7;
+  color: white;
+  padding: 3px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.emp_lable_add {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.emp_form_button {
+  margin: 0 auto;
+  background-color: #4a8db7;
+  border: 2px solid #4a8db7;
+  color: white;
+  padding: 4px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+  display: flex;
+}
+.go_acc {
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 10px;
+}
+.sub_para_emp {
+  text-align: center;
+  padding: 10px 25%;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.find_form_emp {
+  width: 450px;
+  border: 2px solid #4a8db7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.fin_box_details {
+  width: 450px;
+  border: 2px solid #4a8db7;
+  padding: 20px;
+  margin-top: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.topic_detl {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.infro_detil {
+  font-size: 18px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+/*adminlog*/
+.imgicon1{
+  width: 250px;;
+  height: 250px;
+}
+.imgicon2{
+  width: 250px;;
+  height: 250px;
+}
+.loginbox {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 800px;
+  border: 2px solid #4a8db7;
+  box-shadow: 0px 0px 10px rgba(178, 16, 27, 0.3);
+}
+.logleftpn {
+  width: 100%;
+}
+.loginleft {
+  flex: 1;
+  width: 400px;
+}
+
+.loginright {
+  flex: 1;
+  padding: 50px;
+  width: 400px;
+}
+.admin_topic {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.loginbox_main {
+  width: 100%;
+  padding: 150px 0 0 0;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+
+
+
+
+
+/*emp details tble*/
+
+.table_emp_details {
+  width: 100%;
+  text-align: center;
+  margin: 25px 0;
+  border: 2px solid #4a8db7;
+}
+.con {
+  padding: 25px 5%;
+  font-family: "Roboto", sans-serif;
+}
+
+.table_emp_data {
+  border: 2px solid #4a8db7;
+  margin: 0;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.dltbtn_emp {
+  margin-top: 10px;
+  display:grid;
+  background-color: #e90e0e;
+  border: 2px solid #e90e0e;
+  color: white;
+  padding: 4px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 25px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.update_emp {
+  
+  margin-top: 10px;
+  display:grid;
+  background-color: #0ec1e9;
+  border: 2px solid #ffffff;
+  color: white;
+  padding: 4px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  
+  border-radius: 4px;
+  font-size: 20px;
+
+}
+.not_yet {
+  text-transform: capitalize;
+  color: #e90e0e;
+  font-size: 18px;
+}
+.select_box {
+  cursor: pointer;
+  width: 300px;
+  border: 2px solid #4a8db7;
+  padding: 20px;
+  margin-top: 25px;
+  border-radius: 5px;
+  margin: 0 35px 0 0;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.imgicon {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cen_sub {
+  text-align: center;
+}
